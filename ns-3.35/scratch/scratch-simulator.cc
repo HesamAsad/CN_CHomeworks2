@@ -94,7 +94,6 @@ void experiment()
   internet.Install (right_nodes);
   
   Ipv4AddressHelper ipv4_le, ipv4_ro, ipv4_ri;  
-  // Ipv4Address
   ipv4_le.SetBase ("10.0.1.0", "255.255.255.0");
   ipv4_ro.SetBase ("10.0.0.0", "255.255.255.0");
   ipv4_ri.SetBase ("10.0.2.0", "255.255.255.0");
